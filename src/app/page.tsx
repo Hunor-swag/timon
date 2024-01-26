@@ -7,6 +7,10 @@ export default function Home() {
       <p className='text-lg font-semibold text-blue-700'>
         Ez a világ legjobb kiskutyájának, Timonnak a weboldala.
       </p>
+      <video controls className=''>
+        <source src='/videos/timon_video.mp4' type='video/mp4' />
+        Your browser does not support the video tag.
+      </video>
     </main>
   );
 }
